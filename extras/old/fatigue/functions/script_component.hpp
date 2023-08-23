@@ -1,0 +1,1 @@
+#include "\z\tfww\addons\fatigue\script_component.hpp"

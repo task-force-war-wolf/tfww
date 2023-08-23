@@ -1,0 +1,1 @@
+#include "\z\tfww\addons\respawn\script_component.hpp"

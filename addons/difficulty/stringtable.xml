@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TFWW">
+    <Package name="Difficulty">
+        <Key ID="STR_TFWW_Difficulty_DifficultyName">
+            <English>Task Force War Wolf </English>
+        </Key>
+        <Key ID="STR_TFWW_Difficulty_DifficultyDescription">
+            <English>Custom Task Force War Wolf  settings.</English>
+            <Polish>Własne ustawienia Task Force War Wolf .</Polish>
+        </Key>
+    </Package>
+</Project>

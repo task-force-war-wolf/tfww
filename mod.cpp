@@ -1,0 +1,11 @@
+name = "Task Force War Wolf Custom";
+picture = "wolf-256.paa";
+description = "Task Force War Wolf  Custom Mod";
+logo = "wolf-256.paa";
+logoOver = "wolfg-256.paa";
+tooltip = "Here you will return, you will not die in war";
+tooltipOwned = "Project Template Weee";
+overview = "Task Force War Wolf  Custom Mod - Here you will return, you will not die in war";
+author = "YonV";
+overviewPicture = "wolf-256.paa";
+dir = "@tfww";

@@ -1,0 +1,1 @@
+#include "\z\tfww\addons\common\script_component.hpp"

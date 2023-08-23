@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TFWW">
+    <Package name="Main">
+        <Key ID="STR_TFWW_Main_Attributes">
+            <English>Task Force War Wolf  Attributes</English>
+            <Polish>Atrybuty Task Force War Wolf </Polish>
+        </Key>
+        <Key ID="STR_TFWW_Main_Category">
+            <English>Task Force War Wolf </English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Toolbar">
+            <English>Task Force War Wolf </English>
+        </Key>
+        <Key ID="STR_TFWW_Main_ToolbarWiki">
+            <English>Wiki</English>
+        </Key>
+    </Package>
+</Project>
