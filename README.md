@@ -1,18 +1,18 @@
 <p align="center">
-    <img src="newlogo.png" width="480">
+    <img src="wolffill.png" width="480">
 </p>
 
 <p align="center">
-    <a href="https://github.com/tfwws-of-battle/tfww/releases/latest">
+    <a href="https://github.com/task-force-war-wolf/tfww/releases/latest">
         <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="ACE Project Template Version">
     </a>
-    <a href="https://github.com/tfwws-of-battle/tfww/issues">
+    <a href="https://github.com/task-force-war-wolf/tfww/issues">
         <img src="https://img.shields.io/github/issues-raw/YonVclaw/Mod_Template.svg?style=flat-square&label=Issues" alt="ACE Project Template Issues">
     </a>
-    <a href="https://github.com/tfwws-of-battle/tfww/releases">
+    <a href="https://github.com/task-force-war-wolf/tfww/releases">
         <img src="https://img.shields.io/github/downloads/YonVclaw/Mod_Template/total.svg?style=flat-square&label=Downloads" alt="ACE Project Template Downloads">
     </a>
-    <a href="https://github.com/tfwws-of-battle/tfww/blob/master/LICENSE">
+    <a href="https://github.com/task-force-war-wolf/tfww/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="ACE Project Template License">
     </a>
 </p>
@@ -40,7 +40,7 @@ Its based/inspired on/by the following projects;
 -https://steamcommunity.com/sharedfiles/filedetails/?id=2869453820  - Arma Public License Share-Alike (APL-SA)
 
 All the code in this mod is available in the Github
-you can find the Task Force War Wolf  Version at https://github.com/tfwws-of-battle/tfww
+you can find the Task Force War Wolf  Version at https://github.com/task-force-war-wolf/tfww
 
 (I know I forgot a few, I will work on getting those mentions put in)
 
