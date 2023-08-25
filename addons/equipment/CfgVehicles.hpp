@@ -22,7 +22,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\tfww\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\tfww\addons\Equipment\data\ammo_tfww_co.paa"
+            "z\tfww\addons\Equipment\data\ammotfwwA_co.paa"
         };
         class TransportMagazines {
         };
@@ -33,126 +33,7 @@ class CfgVehicles {
         transportAmmo=30000;
         supplyRadius=10;
     };
-    class GVAR(arsenalW): NATO_Box_Base {
-        scope = 2;
-        scopeCurator = 2;
-        author = QAUTHOR;
-        displayName = "[TFWW] Arsenal Winter";
-        model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
-        icon="iconCrateVeh";
-        ace_dragging_canDrag = 0;
-        ace_dragging_canCarry = 0;
-        slingLoadCargoMemoryPoints[]= {
-            "SlingLoadCargo1",
-            "SlingLoadCargo2",
-            "SlingLoadCargo3",
-            "SlingLoadCargo4"
-        };
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
-        _generalMacro="Box_NATO_AmmoVeh_F";
-        hiddenSelectionsTextures[]= {
-            "z\tfww\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\tfww\addons\Equipment\data\ammo_tfww_W_co.paa"
-        };
-        class TransportMagazines {
-        };
-        class TransportWeapons {
-        };
-        class TransportItems {
-        };
-        transportAmmo=30000;
-        supplyRadius=10;
-    };
-    class GVAR(arsenalD): NATO_Box_Base {
-        scope = 2;
-        scopeCurator = 2;
-        author = QAUTHOR;
-        displayName = "[TFWW] Arsenal Desert";
-        model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
-        icon="iconCrateVeh";
-        ace_dragging_canDrag = 0;
-        ace_dragging_canCarry = 0;
-        slingLoadCargoMemoryPoints[]= {
-            "SlingLoadCargo1",
-            "SlingLoadCargo2",
-            "SlingLoadCargo3",
-            "SlingLoadCargo4"
-        };
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
-        _generalMacro="Box_NATO_AmmoVeh_F";
-        hiddenSelectionsTextures[]= {
-            "z\tfww\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\tfww\addons\Equipment\data\ammotfww_D_co.paa"
-        };
-        class TransportMagazines {
-        };
-        class TransportWeapons {
-        };
-        class TransportItems {
-        };
-        transportAmmo=30000;
-        supplyRadius=10;
-    };
-    class GVAR(arsenalT): NATO_Box_Base {
-        scope = 2;
-        scopeCurator = 2;
-        author = QAUTHOR;
-        displayName = "[TFWW] Arsenal Tropical";
-        model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
-        icon="iconCrateVeh";
-        ace_dragging_canDrag = 0;
-        ace_dragging_canCarry = 0;
-        slingLoadCargoMemoryPoints[]= {
-            "SlingLoadCargo1",
-            "SlingLoadCargo2",
-            "SlingLoadCargo3",
-            "SlingLoadCargo4"
-        };
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
-        _generalMacro="Box_NATO_AmmoVeh_F";
-        hiddenSelectionsTextures[]= {
-            "z\tfww\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\tfww\addons\Equipment\data\ammotfww_T_co.paa"
-        };
-        class TransportMagazines {
-        };
-        class TransportWeapons {
-        };
-        class TransportItems {
-        };
-        transportAmmo=30000;
-        supplyRadius=10;
-    };
-    class GVAR(arsenalC): NATO_Box_Base {
-        scope = 2;
-        scopeCurator = 2;
-        author = QAUTHOR;
-        displayName = "[TFWW] Arsenal Civllian";
-        model="A3\Weapons_F\Ammoboxes\AmmoVeh_F";
-        icon="iconCrateVeh";
-        ace_dragging_canDrag = 0;
-        ace_dragging_canCarry = 0;
-        slingLoadCargoMemoryPoints[]= {
-            "SlingLoadCargo1",
-            "SlingLoadCargo2",
-            "SlingLoadCargo3",
-            "SlingLoadCargo4"
-        };
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
-        _generalMacro="Box_NATO_AmmoVeh_F";
-        hiddenSelectionsTextures[]= {
-            "z\tfww\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\tfww\addons\Equipment\data\ammotfww_co_c_.paa"
-        };
-        class TransportMagazines {
-        };
-        class TransportWeapons {
-        };
-        class TransportItems {
-        };
-        transportAmmo=30000;
-        supplyRadius=10;
-    };
+
     class GVAR(resupply): NATO_Box_Base {
         scope = 2;
         scopeCurator = 2;
@@ -172,7 +53,7 @@ class CfgVehicles {
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {
             "z\tfww\addons\Equipment\data\ammobox_signs_caA.paa",
-            "z\tfww\addons\Equipment\data\resupplytfww.paa"
+            "z\tfww\addons\Equipment\data\ammotfwwR_co.paa"
         };
         class TransportMagazines {
         };

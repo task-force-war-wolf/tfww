@@ -10,8 +10,8 @@ include = [
     "LICENSE",
     "3rdparty",
     "AUTHORS.txt",
-    "gobp2_256_g.paa",
-    "gobp2_256.paa"
+    "tfww256.paa",
+    "tfwwsub256.paa"
 ]
 
 [lint.sqf]

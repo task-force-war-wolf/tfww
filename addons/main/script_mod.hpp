@@ -4,8 +4,8 @@
 
 #define AUTHOR Tfww
 #define QAUTHOR QUOTE(AUTHOR)
-#define LOGO_PATH QUOTE(z\tfww\addons\media\images\wolf-256.paa)
-#define URL "https://www.tfwwsofbattle.com/"
+#define LOGO_PATH QUOTE(z\tfww\addons\media\images\tfww512.paa)
+#define URL "https://github.com/task-force-war-wolf"
 
 
 #include "script_version.hpp"

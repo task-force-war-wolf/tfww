@@ -32,16 +32,16 @@ private _month = systemTime select 1;
 private _easterMonth = [] call EFUNC(common,easterDate) select 1;
 switch (_month) do {
     case 10: {
-        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\wolf-256.paa);
+        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\tfww512.paa);
     };
     case 12: {
-        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\wolf-256.paa);
+        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\tfww512.paa);
     };
     case _easterMonth: {
-        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\wolf-256.paa);
+        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\tfww512.paa);
     };
     default {
-        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\wolf-256.paa);
+        _picture ctrlSetText QUOTE(z\tfww\addons\media\images\tfww512.paa);
     };
 };
 _picture ctrlCommit 0;

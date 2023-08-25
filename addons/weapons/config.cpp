@@ -15,6 +15,7 @@ class CfgPatches {
             "A3_Weapons_F_Exp",
             "cba_jr",
             "ace_xm157",
+            "cba_jam",
             // "MCX_Rattler",
             "A3_Weapons_F_Rifles_MX_Black",
             "A3_Weapons_F_Rifles_MX",
@@ -33,3 +34,4 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 #include "XtdGearweapon.hpp"
 #include "XtdGeartier1.hpp"
+#include "CfgMagazineWells.hpp"
