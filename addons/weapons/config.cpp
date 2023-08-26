@@ -34,4 +34,3 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 #include "XtdGearweapon.hpp"
 #include "XtdGeartier1.hpp"
-#include "CfgMagazineWells.hpp"

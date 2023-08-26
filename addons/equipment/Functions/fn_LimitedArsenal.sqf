@@ -32,10 +32,9 @@ params [
 ];
 
 call {
- if (_Type isEqualto 0) exitwith {_Type = "TFWW"};
- if (_Type isEqualto 1) exitwith {_Type = "Winter"};
- if (_Type isEqualto 2) exitwith {_Type = "UnderCover"};
-    if (_Type isEqualto 3) exitwith {_Type = "RHS"};
+    if (_Type isEqualto 0) exitwith {_Type = "TFWW"};
+    if (_Type isEqualto 1) exitwith {_Type = "Incogneato"};
+    if (_Type isEqualto 2) exitwith {_Type = "RECTFWW"};
 };
 
 if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {

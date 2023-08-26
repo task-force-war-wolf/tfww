@@ -64,9 +64,9 @@ if (isNull _unit) exitWith {};
         private _order = [1,2,3];
         private _overflow = true;
 
-        [_unit, "ACE_fieldDressing", 4, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACE_fieldDressing", 6, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "ACE_quikClot", 4, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACE_quikClot", 6, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
         [_unit, "ACE_tourniquet", 2, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
@@ -74,11 +74,9 @@ if (isNull _unit) exitWith {};
         sleep 0.3;
         [_unit, "ACE_salineIV_500", 1, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "kat_IV_16", 1, _order, _overflow] call EFUNC(common,addItem);
-        sleep 0.3;
         [_unit, "ACE_splint", 2, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "kat_Painkiller", 1, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "TFWW_apap", 1, _order, _overflow] call EFUNC(common,addItem);
     };
 
     if (tfww_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {

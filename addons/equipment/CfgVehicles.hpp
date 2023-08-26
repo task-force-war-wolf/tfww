@@ -49,6 +49,9 @@ class CfgVehicles {
             "SlingLoadCargo3",
             "SlingLoadCargo4"
         };
+        class EventHandlers: EventHandlers {
+        init = "[this,10,true,true] call tfww_fnc_AmmoCrate;";
+        };
         editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\Box_NATO_AmmoVeh_F.jpg";
         _generalMacro="Box_NATO_AmmoVeh_F";
         hiddenSelectionsTextures[]= {

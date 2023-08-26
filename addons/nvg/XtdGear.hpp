@@ -2,7 +2,7 @@
 class XtdGearModels {
     class CfgWeapons {
         class anvg {
-            options[] = { "camo", "ti"};
+            options[] = { "camo"};
             label = "Adv NVG";
             class camo {
                 alwaysSelectable = 1;
@@ -20,14 +20,14 @@ class XtdGearModels {
                     image = "z\aceax\addons\gearinfo\data\camo\sage.paa";
                 };
             };
-            class ti {
-                label = "Thermal";
-                alwaysSelectable = 1;
-                values[] = { "yes", "no"};
-            };
+            // class ti {
+            //     label = "Thermal";
+            //     alwaysSelectable = 1;
+            //     values[] = { "yes", "no"};
+            // };
         };
         class nvg5 {
-            options[] = { "camo", "ti"};
+            options[] = { "camo"};
             label = "NVG v5";
             class camo {
                 alwaysSelectable = 1;
@@ -45,11 +45,11 @@ class XtdGearModels {
                     image = "z\aceax\addons\gearinfo\data\camo\sage.paa";
                 };
             };
-            class ti {
-                label = "Thermal";
-                alwaysSelectable = 1;
-                values[] = { "yes", "no"};
-            };
+            // class ti {
+            //     label = "Thermal";
+            //     alwaysSelectable = 1;
+            //     values[] = { "yes", "no"};
+            // };
         };
     };
 };
@@ -81,41 +81,40 @@ class XtdGearInfos {
             camo = "brn";
             ti = "no";
         };
-        class GVAR(nvg5_grn) {
-            model = "nvg5";
-            camo = "grn";
-            ti = "no";
-        };
-
-        class GVAR(anvgTI_blk) {
-            model = "anvg";
-            camo = "blk";
-            ti = "yes";
-        };
-        class GVAR(anvgTI_gry) {
-            model = "anvg";
-            camo = "gry";
-            ti = "yes";
-        };
-        class GVAR(anvgTI_grn) {
-            model = "anvg";
-            camo = "grn";
-            ti = "yes";
-        };
-        class GVAR(nvg5TI_blk) {
-            model = "nvg5";
-            camo = "blk";
-            ti = "yes";
-        };
-        class GVAR(nvg5TI_brn) {
-            model = "nvg5";
-            camo = "brn";
-            ti = "yes";
-        };
-        class GVAR(nvg5TI_grn) {
-            model = "nvg5";
-            camo = "grn";
-            ti = "yes";
-        };
+        // class GVAR(nvg5_grn) {
+        //     model = "nvg5";
+        //     camo = "grn";
+        //     ti = "no";
+        // };
+        // class GVAR(anvgTI_blk) {
+        //     model = "anvg";
+        //     camo = "blk";
+        //     ti = "yes";
+        // };
+        // class GVAR(anvgTI_gry) {
+        //     model = "anvg";
+        //     camo = "gry";
+        //     ti = "yes";
+        // };
+        // class GVAR(anvgTI_grn) {
+        //     model = "anvg";
+        //     camo = "grn";
+        //     ti = "yes";
+        // };
+        // class GVAR(nvg5TI_blk) {
+        //     model = "nvg5";
+        //     camo = "blk";
+        //     ti = "yes";
+        // };
+        // class GVAR(nvg5TI_brn) {
+        //     model = "nvg5";
+        //     camo = "brn";
+        //     ti = "yes";
+        // };
+        // class GVAR(nvg5TI_grn) {
+        //     model = "nvg5";
+        //     camo = "grn";
+        //     ti = "yes";
+        // };
     };
 };

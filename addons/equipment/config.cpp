@@ -68,4 +68,4 @@ class CfgFunctions {
 #include "XtdGearModels.hpp"
 #include "XtdGearfox.hpp"
 #include "tfar.sqf"
-
+#include "XtdRHS.hpp"

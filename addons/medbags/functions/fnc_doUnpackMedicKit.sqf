@@ -85,8 +85,6 @@ if (isNull _unit) exitWith {};
         [_unit, "ACE_plasmaIV_500", 4, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
         [_unit, "ACE_tourniquet", 04, _order, _overflow] call EFUNC(common,addItem);
-        sleep 0.3;
-        [_unit, "kat_plate", 4, _order, _overflow] call EFUNC(common,addItem);
     };
 
     if (tfww_MEDICAL_SUPPLIES_UNPACK_FAILURE) exitWith {

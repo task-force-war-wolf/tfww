@@ -21,7 +21,7 @@ class Cfg3den {
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
                     columns = 5;
-                    strings[] = {"None", "Tfww", "Incogneato"};
+                    strings[] = {"None", "TFWW", "Incogneato", "TFWWREC"};
                 };
             };
         };
@@ -55,7 +55,7 @@ class Cfg3den {
                     h = "5 * (pixelH * pixelGrid * 0.50)";
                     rows = 1;
                     columns = 4;
-                    strings[] = {"None", "Tfww", "Incogneato"};
+                    strings[] = {"None", "TFWW", "Incogneato", "TFWWREC"};
                 };
             };
         };

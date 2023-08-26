@@ -111,8 +111,8 @@ call {
         ["Attachable_Helistretcher", 2],
         ["ACE_surgicalKit", 2],
         ["TFWW_Stethoscope", 2],
-        ["ACE_personalAidKit",8],
-        ["tfww_medbags_Trauma",1]
+        ["ACE_personalAidKit",12],
+        ["tfww_medbags_Trauma",4]
     ];
     } else {
     _ContainerItems = [
