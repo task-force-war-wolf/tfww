@@ -21,7 +21,17 @@ class GVAR(authorized_players) {
     class SILVI {
         uid = "76561198097524106";
     };
+    class SUPERJES1 {
+        uid = "76561198198046123";
+    };
+    class MADMOONRABBIT {
+        uid = "76561198276476043";
+    };
+    class RIPTIDE {
+        uid = "76561199202994293";
+    };
 };
+
 
 #include "CfgFunctions.hpp"
 #include "CfgDebriefing.hpp"
