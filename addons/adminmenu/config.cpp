@@ -18,6 +18,9 @@ class GVAR(authorized_players) {
     class Yonv {
         uid = "76561198000002705";
     };
+    class SILVI {
+        uid = "76561198097524106";
+    };
 };
 
 #include "CfgFunctions.hpp"

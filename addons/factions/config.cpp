@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {
             "tfww_main"
         };
-        authorUrl = "https://www.tfwwsofbattle.com/";
+        authorUrl = "https://github.com/task-force-war-wolf/tfww/";
         author = QAUTHOR;
         authors[] = {""};
         VERSION_CONFIG;

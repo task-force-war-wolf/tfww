@@ -22,7 +22,7 @@ class CfgPatches {
             "A3_Weapons_F_LongRangeRifles_M320"
 
         };
-        authorUrl = "https://www.tfwwsofbattle.com/";
+        authorUrl = "https://github.com/task-force-war-wolf/tfww/";
         author = QAUTHOR;
         authors[] = {""};
         VERSION_CONFIG;

@@ -32,7 +32,7 @@ Its based/inspired on/by the following projects;
 - https://github.com/Theseus-Aegis/Mods - GNU General Public License (GPLv2).
 - https://github.com/last-resort-gaming/tfww-Fundamentals - MIT License
 - https://github.com/Theseus-Aegis/TheseusServices - Official license: Arma Public License Share-Alike (APL-SA)
-- https://www.tfwwsofbattle.com/ - GNU General Public License (GPLv2).
+- https://github.com/task-force-war-wolf/tfww/ - GNU General Public License (GPLv2).
 - https://github.com/quies-in-proelium/qipTPL - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 - https://github.com/Katalam/KNB - GNU General Public License (GPLv3)
 - https://github.com/SzwedzikPL/SimpleSuppress/releases - MIT License

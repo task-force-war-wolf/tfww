@@ -14,3 +14,4 @@
 #include "\z\tfww\addons\main\script_macros.hpp"
 
 #define ADMIN_YONV "76561198000002705"
+#define ADMIN_SILVI "76561198097524106"

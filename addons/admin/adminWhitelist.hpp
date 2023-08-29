@@ -5,5 +5,6 @@ cba_settings_whitelist[] = {
 };
 
 enableDebugConsole[] = {
-    ADMIN_YONV
+    ADMIN_YONV,
+    ADMIN_SILVI
 };

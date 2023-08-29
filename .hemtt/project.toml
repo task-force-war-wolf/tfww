@@ -23,6 +23,9 @@ exclude = [
     "a3/ui_f/hpp/defineDIKCodes.inc",
     "a3/ui_f/hpp/defineCommonGrids.inc",
     "a3/ui_f/hpp/defineCommonColors.inc",
+    "addons/tfar_setter/functions/fn_setProfile.sqf",
+    "addons/tfar_setter/XEH_preInit.sqf",
+    "addons/tfar_setter/functions/fn_loadSettings.sqf"
 ]
 
 [Rapify]
