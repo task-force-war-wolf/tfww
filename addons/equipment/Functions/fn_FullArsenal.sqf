@@ -54,14 +54,10 @@ if (isClass (configFile >> "CfgPatches" >> "ace_main")) then {
     ["AmmoboxInit", [_object, false]] call BIS_fnc_arsenal;
 };
 
-// private [
-//     "_AvailableItems", "_AvailableHeadgear", "_AvailableGoggles",
-//     "_AvailableUniforms", "_AvailableVests", "_AvailableBackpacks",
-//     "_AvailableWeapons", "_AvailableMagazines"
-// ];
-
 private [
-    "_AvailableItems", "_AvailableGear", "_AvailableWeapons"
+    "_AvailableItems", "_AvailableHeadgear", "_AvailableGoggles",
+    "_AvailableUniforms", "_AvailableVests", "_AvailableBackpacks",
+    "_AvailableWeapons", "_AvailableMagazines"
 ];
 
 _ArsenalType = call {

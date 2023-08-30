@@ -127,7 +127,7 @@ force force A3TI_REMOVE_FILMGRAIN_RHS = true;
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force ace_advanced_ballistics_bulletTraceEnabled = true;
-force ace_advanced_ballistics_enabled = true;
+force ace_advanced_ballistics_enabled = false;
 force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force ace_advanced_ballistics_simulationInterval = 0.05;
 
@@ -186,7 +186,6 @@ force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 0;
 force force ace_common_checkPBOsCheckAll = false;
 force ace_common_checkPBOsWhitelist = "[]";
-
 
 // ACE Cook off
 force force ace_cookoff_ammoCookoffDuration = 1;
@@ -260,13 +259,6 @@ force force ace_goggles_showInThirdPerson = false;
 // ACE Grenades
 force force ace_grenades_convertExplosives = true;
 
-// ACE Headless
-force force acex_headless_delay = 15;
-force force acex_headless_enabled = true;
-force force acex_headless_endMission = 0;
-force force acex_headless_log = false;
-force force acex_headless_transferLoadout = 0;
-
 // ACE Hearing
 force force ace_hearing_autoAddEarplugsToUnits = true;
 force force ace_hearing_disableEarRinging = false;
@@ -304,7 +296,6 @@ force force ace_interact_menu_shadowSetting = 2;
 force force ace_interact_menu_textSize = 2;
 force force ace_interact_menu_useListMenu = false;
 force force ace_interact_menu_useListMenuSelf = true;
-
 
 // ACE Logistics
 force force ace_cargo_carryAfterUnload = true;
@@ -505,10 +496,10 @@ force force ace_respawn_savePreDeathGear = true;
 force ace_scopes_correctZeroing = true;
 force ace_scopes_deduceBarometricPressureFromTerrainAltitude = false;
 force ace_scopes_defaultZeroRange = 100;
-force ace_scopes_enabled = true;
+force ace_scopes_enabled = false;
 force ace_scopes_forceUseOfAdjustmentTurrets = false;
 force ace_scopes_overwriteZeroRange = false;
-force ace_scopes_simplifiedZeroing = false;
+force ace_scopes_simplifiedZeroing = true;
 force ace_scopes_zeroReferenceBarometricPressure = 1013.25;
 force ace_scopes_zeroReferenceHumidity = 0;
 force ace_scopes_zeroReferenceTemperature = 15;
@@ -556,42 +547,7 @@ ace_tagging_quickTag = 1;
 
 // ACE User Interface
 force ace_ui_allowSelectiveUI = true;
-ace_ui_ammoCount = false;
-ace_ui_ammoType = true;
-ace_ui_commandMenu = true;
 force ace_ui_enableSpeedIndicator = true;
-ace_ui_firingMode = true;
-ace_ui_groupBar = false;
-ace_ui_gunnerAmmoCount = true;
-ace_ui_gunnerAmmoType = true;
-ace_ui_gunnerFiringMode = true;
-ace_ui_gunnerLaunchableCount = true;
-ace_ui_gunnerLaunchableName = true;
-ace_ui_gunnerMagCount = true;
-ace_ui_gunnerWeaponLowerInfoBackground = true;
-ace_ui_gunnerWeaponName = true;
-ace_ui_gunnerWeaponNameBackground = true;
-ace_ui_gunnerZeroing = true;
-ace_ui_hideDefaultActionIcon = false;
-ace_ui_magCount = true;
-ace_ui_soldierVehicleWeaponInfo = true;
-ace_ui_staminaBar = true;
-ace_ui_stance = true;
-ace_ui_throwableCount = true;
-ace_ui_throwableName = true;
-ace_ui_vehicleAltitude = true;
-ace_ui_vehicleCompass = true;
-ace_ui_vehicleDamage = true;
-ace_ui_vehicleFuelBar = true;
-ace_ui_vehicleInfoBackground = true;
-ace_ui_vehicleName = true;
-ace_ui_vehicleNameBackground = true;
-ace_ui_vehicleRadar = true;
-ace_ui_vehicleSpeed = true;
-ace_ui_weaponLowerInfoBackground = true;
-ace_ui_weaponName = true;
-ace_ui_weaponNameBackground = true;
-ace_ui_zeroing = true;
 
 // ACE Vehicle Lock
 force ace_vehiclelock_defaultLockpickStrength = 10;
@@ -666,53 +622,12 @@ force cba_network_loadoutValidation = 0;
 force diwako_dui_indicators_crew_range_enabled = false;
 
 // DUI - Squad Radar - Radar
-diwako_dui_compass_hide_alone_group = false;
-diwako_dui_compass_hide_blip_alone_group = false;
-diwako_dui_compass_icon_scale = 1;
-diwako_dui_compass_opacity = 1;
-diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\standard\compass_limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\standard\compass.paa"];
-diwako_dui_compassRange = 35;
-diwako_dui_compassRefreshrate = 0;
-diwako_dui_dir_showMildot = false;
-diwako_dui_dir_size = 1.25;
-diwako_dui_distanceWarning = 3;
-diwako_dui_enable_compass = true;
-diwako_dui_enable_compass_dir = 1;
-diwako_dui_enable_occlusion = false;
-diwako_dui_enable_occlusion_cone = 360;
-diwako_dui_hudScaling = 1;
-diwako_dui_namelist = true;
-diwako_dui_namelist_bg = 0;
-diwako_dui_namelist_only_buddy_icon = false;
-diwako_dui_namelist_size = 1;
-diwako_dui_namelist_text_shadow = 2;
-diwako_dui_namelist_width = 215;
-diwako_dui_radar_ace_finger = true;
 force diwako_dui_radar_ace_medic = true;
-diwako_dui_radar_compassRangeCrew = 500;
-diwako_dui_radar_dir_padding = 25;
-diwako_dui_radar_dir_shadow = 2;
-diwako_dui_radar_group_by_vehicle = false;
-diwako_dui_radar_icon_opacity = 1;
-diwako_dui_radar_icon_opacity_no_player = true;
 force diwako_dui_radar_icon_priority_setting = 1;
-diwako_dui_radar_icon_scale_crew = 6;
-diwako_dui_radar_leadingZeroes = false;
-diwako_dui_radar_namelist_hideWhenLeader = false;
-diwako_dui_radar_namelist_vertical_spacing = 1;
-diwako_dui_radar_occlusion_fade_in_time = 1;
-diwako_dui_radar_occlusion_fade_time = 10;
-diwako_dui_radar_pointer_color = [1,0.5,0,1];
-diwako_dui_radar_pointer_style = "standard";
-diwako_dui_radar_show_cardinal_points = true;
-diwako_dui_radar_showSpeaking = true;
-diwako_dui_radar_showSpeaking_radioOnly = false;
-diwako_dui_radar_showSpeaking_replaceIcon = true;
 force diwako_dui_radar_sortType = "none";
 force diwako_dui_radar_sqlFirst = false;
 force diwako_dui_radar_syncGroup = false;
 force diwako_dui_radar_vehicleCompassEnabled = false;
-diwako_dui_use_layout_editor = false;
 
 // Enhanced Movement Rework
 force emr_main_allowClimbOnStandingUnits = false;
@@ -747,10 +662,6 @@ emr_main_preventHighVaulting = false;
 force emr_main_staminaCoefficient = 1;
 force emr_main_whitelistStr = "";
 force emr_main_yeetCoefficient = 1.4;
-
-// Fawks' Enhanced NVGs
-PDT_ENVG_Blacklist = "";
-
 
 // Goobin's Gameplay Enhancements Core
 gge_core_var_debugMode = false;

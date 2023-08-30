@@ -9,5 +9,6 @@ enableDebugConsole[] = {
     ADMIN_SILVI,
     ADMIN_SUPERJES1,
     ADMIN_MADMOONRABBIT,
-    ADMIN_RIPTIDE
+    ADMIN_RIPTIDE,
+    ADMIN_NACLDIR
 };
