@@ -13,5 +13,12 @@ if (hasinterface) then {
 
     player setVariable["draWhitelisted", false, true];
     daoWhitelisted=false;
+
+    // Radar (available since 1.5.5)
+    player setVariable ["diwako_dui_radar_customIcon", "\a3\ui_f\data\map\vehicleicons\iconman_ca.paa", true];
+
+    // middle icon for indicators (available since 1.6.0)
+    player setVariable ["diwako_dui_indicators_customIcon", "\a3\ui_f\data\map\vehicleicons\iconman_ca.paa", true];
+
 };
-[ format [hint_tfww_default, "Weapons"] ] call tfww_fnc_hint;
+Hint "RiflePerson";

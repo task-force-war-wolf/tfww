@@ -9,16 +9,16 @@ if (hasinterface) then {
     player setUnitTrait ["UAVHacker", false];
     player setVariable ["ACE_isEOD", false, true];
     player setVariable ["ace_isEngineer", 0, true];
-
-    player setVariable ["ace_medical_medicclass", 1, true];
+    player setVariable ["ace_medical_medicclass", 0, true];
 
     player setVariable["draWhitelisted", false, true];
     daoWhitelisted=false;
 
     // Radar (available since 1.5.5)
-    player setVariable ["diwako_dui_radar_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa", true];
+    player setVariable ["diwako_dui_radar_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanat_ca.paa", true];
 
     // middle icon for indicators (available since 1.6.0)
-    player setVariable ["diwako_dui_indicators_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa", true];
+    player setVariable ["diwako_dui_indicators_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanat_ca.paa", true];
+
 };
-Hint "Medic";
+Hint "Anti-tank";

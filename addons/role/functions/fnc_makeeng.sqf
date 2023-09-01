@@ -14,6 +14,11 @@ if (hasinterface) then {
 
     player setVariable["draWhitelisted", false, true];
     daoWhitelisted=false;
-};
 
-[ format [hint_tfww_default, "Engineer"] ] call tfww_fnc_hint;
+    // Radar (available since 1.5.5)
+    player setVariable ["diwako_dui_radar_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa", true];
+
+    // middle icon for indicators (available since 1.6.0)
+    player setVariable ["diwako_dui_indicators_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa", true];
+};
+Hint "Engineer";

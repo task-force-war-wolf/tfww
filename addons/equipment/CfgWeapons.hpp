@@ -4,7 +4,6 @@ class CfgWeapons {
     class optic_DMS;
     class optic_Nightstalker;
     class InventoryOpticsItem_Base_F;
-    class InventoryOpticsItem_Base_F;
     class ACE_Vector;
     class Uniform_Base;
     class VestItem;

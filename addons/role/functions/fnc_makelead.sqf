@@ -25,9 +25,9 @@ if (hasinterface) then {
     ] call CBA_fnc_waitAndExecute;
 
         // Radar (available since 1.5.5)
-    player setVariable ["diwako_dui_radar_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa", true];
+    player setVariable ["diwako_dui_radar_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa", true];
 
     // middle icon for indicators (available since 1.6.0)
-    player setVariable ["diwako_dui_indicators_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa", true];
+    player setVariable ["diwako_dui_indicators_customIcon", "\a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa", true];
 };
-Hint "Communications";
+Hint "Your in charge now!";

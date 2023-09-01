@@ -64,9 +64,9 @@ if (isNull _unit) exitWith {};
         private _order = [1,2,3];
         private _overflow = true;
 
-        [_unit, "ACE_fieldDressing", 6, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACE_elasticBandage", 6, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
-        [_unit, "ACE_quikClot", 6, _order, _overflow] call EFUNC(common,addItem);
+        [_unit, "ACE_packingBandage", 6, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;
         [_unit, "ACE_tourniquet", 2, _order, _overflow] call EFUNC(common,addItem);
         sleep 0.3;

@@ -1,0 +1,29 @@
+    Riflemen fnc_makewep.sqf
+    \a3\ui_f\data\map\vehicleicons\iconman_ca.paa
+
+    Grenadier fnc_makegren.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanexplosive_ca.paa
+
+    MG fnc_makemg.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanmg_ca.paa
+
+    AT fnc_makeat.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanat_ca.paa
+
+    Medic fnc_makemed.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanmedic_ca.paa
+
+    Coms fnc_makecom.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanofficer_ca.paa
+
+    Marksman fnc_makemark.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanrecon_ca.paa
+
+    Engineer fnc_makeeng.sqf
+    \a3\ui_f\data\map\vehicleicons\iconmanengineer_ca.paa
+
+ Pilot fnc_makepilot.sqf
+\a3\ui_f\data\map\vehicleicons\iconmanvirtual_ca.paa
+
+ Squad Lead fnc_makelead.sqf
+\a3\ui_f\data\map\vehicleicons\iconmancommander_ca.paa

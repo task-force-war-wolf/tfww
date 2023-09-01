@@ -4,7 +4,7 @@ force force ranks_colonel = "";
 force force ranks_corporal = "";
 force force ranks_lieutenant = "";
 force force ranks_major = "";
-force force ranks_sergeant = """76561198000002705""";
+force force ranks_sergeant = "";
 
 // Role & Role: Roles
 force force ROLES_COMM = "";

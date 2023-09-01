@@ -296,7 +296,6 @@ class XtdGearModels {
 
     };
 
-
     class CfgVehicles {};
 };
 
