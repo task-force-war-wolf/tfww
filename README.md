@@ -73,6 +73,9 @@ mjc4wilton's
 BackpackOnChest - Redux https://steamcommunity.com/sharedfiles/filedetails/?id=2372036642
 
 
+RTO-Chatter Chatter Chats
+ACE TFAR Long Range Radio Setter  https://github.com/RTO-Chatter/ACE-TFAR-Setter
+
 Huge appreciation and thanks to [ACE3 Team](http://ace3mod.com/team.html) for their open-source nature and permission to use their systems.
 
 ## License

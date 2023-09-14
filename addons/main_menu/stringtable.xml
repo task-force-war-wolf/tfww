@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TFWW">
     <Package name="Main_Menu">
-        <Key ID="STR_TFWW_Main_Menu_SpotlightHeader">
-            <English>Task Force War Wolf </English>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightHeader1">
+            <English>Alive Server</English>
         </Key>
-        <Key ID="STR_TFWW_Main_Menu_SpotlightJoin">
-            <English>Join</English>
-            <Polish>Dołącz</Polish>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightHeader2">
+            <English>Liberation Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightHeader3">
+            <English>Antistasi Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightHeader4">
+            <English>Training Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightHeader5">
+            <English>Operations Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightJoin1">
+            <English>Join &lt;br/&gt; Alive Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightJoin2">
+            <English>Join &lt;br/&gt; Liberation Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightJoin3">
+            <English>Join &lt;br/&gt; Antistasi Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightJoin4">
+            <English>Join &lt;br/&gt; Training Server</English>
+        </Key>
+        <Key ID="STR_TFWW_Main_Menu_SpotlightJoin5">
+            <English>Join &lt;br/&gt; Operations Server</English>
         </Key>
         <Key ID="STR_TFWW_Main_Menu_AdminLogin">
             <English>Admin Login</English>
@@ -37,12 +60,12 @@
             <Polish>Podłączono do serwera</Polish>
         </Key>
         <Key ID="STR_TFWW_Main_Menu_ServerStatus_Connected_Desc">
-            <English>You're connected to the server. Please wait for the admin to select mission.&lt;br /&gt;(You can use #login command to log in as admin)</English>
-            <Polish>Jesteś podłączony do serwera. Proszę czekać aż admin wybierze misję.&lt;br /&gt;(Możesz użyć komendy #login aby zalogować się jako admin)</Polish>
+            <English>You're connected to the server. Please wait for the admin to select mission. &lt;br/&gt; (You can use #login command to log in as admin)</English>
+            <Polish>Jesteś podłączony do serwera. Proszę czekać aż admin wybierze misję. &lt;br/&gt; (Możesz użyć komendy #login aby zalogować się jako admin)</Polish>
         </Key>
         <Key ID="STR_TFWW_Main_Menu_ServerStatus_ConnectedAdmin_Desc">
-            <English>You're connected to the server as admin.&lt;br /&gt;(You can use #missions command to show missions list)</English>
-            <Polish>Jesteś podłączony do serwera jako admin.&lt;br /&gt;(Możesz użyć komendy #missions aby wyświetlić listę misji)</Polish>
+            <English>You're connected to the server as admin. &lt;br/&gt; (You can use #missions command to show missions list)</English>
+            <Polish>Jesteś podłączony do serwera jako admin. &lt;br/&gt; (Możesz użyć komendy #missions aby wyświetlić listę misji)</Polish>
         </Key>
     </Package>
 </Project>

@@ -81,11 +81,11 @@ class XtdGearInfos {
             camo = "brn";
             ti = "no";
         };
-        // class GVAR(nvg5_grn) {
-        //     model = "nvg5";
-        //     camo = "grn";
-        //     ti = "no";
-        // };
+        class GVAR(nvg5_grn) {
+            model = "nvg5";
+            camo = "grn";
+            ti = "no";
+        };
         // class GVAR(anvgTI_blk) {
         //     model = "anvg";
         //     camo = "blk";

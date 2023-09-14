@@ -29,25 +29,29 @@ force force tfww_back_to_game_removeBody = true;
 force force tfww_back_to_game_teleportToLeader = true;
 force force tfww_back_to_game_teleportToVehicle = true;
 
-// Task Force War Wolf - Channels
-force tfww_Channels_CommandDuration = 0;
-force tfww_Channels_CommandText = false;
-force tfww_Channels_CommandVoice = false;
-force tfww_Channels_DirectDuration = 0;
-force tfww_Channels_DirectText = true;
-force tfww_Channels_DirectVoice = true;
-force tfww_Channels_GlobalDuration = 0;
-force tfww_Channels_GlobalText = false;
-force tfww_Channels_GlobalVoice = false;
-force tfww_Channels_GroupDuration = 0;
-force tfww_Channels_GroupText = false;
-force tfww_Channels_GroupVoice = false;
-force tfww_Channels_SideDuration = 0;
-force tfww_Channels_SideText = false;
-force tfww_Channels_SideVoice = false;
-force tfww_Channels_VehicleDuration = 0;
-force tfww_Channels_VehicleText = false;
-force tfww_Channels_VehicleVoice = false;
+// Task Force War Wolf - BluForce Tracker
+FORCE FORCE tfww_bft_bftEnabled = true;
+FORCE FORCE tfww_bft_friendlySides_CIVILIAN = [0,2];
+FORCE FORCE tfww_bft_friendlySides_EAST = [3];
+FORCE FORCE tfww_bft_friendlySides_RESISTANCE = [1,3];
+FORCE FORCE tfww_bft_friendlySides_WEST = [2];
+FORCE FORCE tfww_bft_friendlySidesDynamic = true;
+FORCE FORCE tfww_bft_groupIconsInteraction = "hover";
+FORCE FORCE tfww_bft_medicalSystem = "ACE";
+FORCE FORCE tfww_bft_requireItemGPS = true;
+FORCE FORCE tfww_bft_showAIGroups = true;
+FORCE FORCE tfww_bft_showAINames = true;
+FORCE FORCE tfww_bft_showCivilians = false;
+FORCE FORCE tfww_bft_showGroupIcons = true;
+FORCE FORCE tfww_bft_showGroupText = true;
+FORCE FORCE tfww_bft_showLifeState = true;
+FORCE FORCE tfww_bft_showOwnFactionOnly = false;
+FORCE FORCE tfww_bft_showOwnGroup = true;
+FORCE FORCE tfww_bft_showOwnGroupUnits = true;
+FORCE FORCE tfww_bft_showPlayerNames = true;
+FORCE FORCE tfww_bft_showUnitNames = true;
+FORCE FORCE tfww_bft_teamColors = "ACE";
+FORCE FORCE tfww_bft_updateInterval = 6
 
 // Task Force War Wolf - common
 force force tfwwb_Main_DynamicGroups = true;
@@ -123,11 +127,13 @@ force force A3TI_HD_VISION_SHIP = true;
 force force A3TI_HD_VISION_UAV = true;
 force force A3TI_REMOVE_FILMGRAIN_RHS = true;
 
+//----------------------------------------------------------------------//
+
 // ACE Advanced Ballistics
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
 force ace_advanced_ballistics_bulletTraceEnabled = true;
-force ace_advanced_ballistics_enabled = false;
+force ace_advanced_ballistics_enabled = true;
 force ace_advanced_ballistics_muzzleVelocityVariationEnabled = true;
 force ace_advanced_ballistics_simulationInterval = 0.05;
 
@@ -343,7 +349,7 @@ force force ace_map_mapGlow = true;
 force force ace_map_mapIllumination = true;
 force force ace_map_mapLimitZoom = false;
 force force ace_map_mapShake = true;
-force force ace_map_mapShowCursorCoordinates = false;
+force force ace_map_mapShowCursorCoordinates = true;
 force force ace_markers_moveRestriction = 0;
 force force ace_markers_timestampEnabled = true;
 force force ace_markers_timestampFormat = "HH:MM";
@@ -494,12 +500,13 @@ force force ace_respawn_savePreDeathGear = true;
 
 // ACE Scopes
 force ace_scopes_correctZeroing = true;
-force ace_scopes_deduceBarometricPressureFromTerrainAltitude = false;
+force ace_scopes_deduceBarometricPressureFromTerrainAltitude = true;
 force ace_scopes_defaultZeroRange = 100;
-force ace_scopes_enabled = false;
-force ace_scopes_forceUseOfAdjustmentTurrets = false;
-force ace_scopes_overwriteZeroRange = false;
-force ace_scopes_simplifiedZeroing = true;
+force ace_scopes_enabled = true;
+force ace_scopes_forceUseOfAdjustmentTurrets = true;
+force ace_scopes_overwriteZeroRange = true;
+force ace_scopes_simplifiedZeroing = false;
+force ace_scopes_useLegacyUI = false;
 force ace_scopes_zeroReferenceBarometricPressure = 1013.25;
 force ace_scopes_zeroReferenceHumidity = 0;
 force ace_scopes_zeroReferenceTemperature = 15;
@@ -594,7 +601,7 @@ ace_weaponselect_displayText = true;
 
 // ACE Weather
 force ace_weather_enabled = true;
-ace_weather_showCheckAirTemperature = true;
+force ace_weather_showCheckAirTemperature = true;
 force ace_weather_updateInterval = 60;
 force ace_weather_windSimulation = true;
 
@@ -735,10 +742,6 @@ force SSS_setting_cleanupCrew = true;
 force SSS_setting_deleteVehicleOnEntityRemoval = false;
 force SSS_setting_directActionRequirement = false;
 force SSS_setting_GiveUAVTerminal = true;
-force SSS_setting_milsimModeArtillery = false;
-force SSS_setting_milsimModeCAS = false;
-force SSS_setting_milsimModeLogistics = false;
-force SSS_setting_milsimModeTransport = false;
 force SSS_setting_removeSupportOnVehicleDeletion = true;
 force SSS_setting_resetVehicleOnRTB = true;
 force SSS_setting_restoreCrewOnRTB = true;
@@ -775,8 +778,8 @@ force TFAR_externalIntercomMaxRange_Phone = 5;
 force TFAR_externalIntercomMaxRange_Wireless = 15;
 force TFAR_fullDuplex = true;
 force TFAR_giveLongRangeRadioToGroupLeaders = false;
-force TFAR_giveMicroDagrToSoldier = true;
-force TFAR_givePersonalRadioToRegularSoldier = false;
+force TFAR_giveMicroDagrToSoldier = false;
+force TFAR_givePersonalRadioToRegularSoldier = true;
 force TFAR_globalRadioRangeCoef = 1;
 force TFAR_instantiate_instantiateAtBriefing = false;
 force TFAR_objectInterceptionEnabled = true;
@@ -804,13 +807,13 @@ force TFAR_setting_DefaultRadio_Personal_Independent = "TFAR_anprc148jem";
 force TFAR_setting_DefaultRadio_Personal_West = "TFAR_anprc152";
 force TFAR_setting_DefaultRadio_Rifleman_East = "TFAR_pnr1000a";
 force TFAR_setting_DefaultRadio_Rifleman_Independent = "TFAR_anprc154";
-force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_rf7800str";
+force TFAR_setting_DefaultRadio_Rifleman_West = "TFAR_anprc152";
 force TFAR_setting_externalIntercomWirelessHeadgear = "";
 force TFAR_spectatorCanHearEnemyUnits = true;
 force TFAR_spectatorCanHearFriendlies = true;
 force TFAR_takingRadio = 2;
-force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
-force TFAR_Teamspeak_Channel_Password = "123";
+force TFAR_Teamspeak_Channel_Name = "WarWolf Test  Serve";
+force TFAR_Teamspeak_Channel_Password = "";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
 
@@ -834,10 +837,10 @@ force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
 force lambs_eventhandlers_ExplosionReactionTime = 9;
 
 // LAMBS Danger WP
-force lambs_wp_autoAddArtillery = false;
+force lambs_wp_autoAddArtillery = true;
 
 // LAMBS Main
-force lambs_main_combatShareRange = 200;
+force lambs_main_combatShareRange = 1000;
 force lambs_main_debug_drawAllUnitsInVehicles = false;
 force lambs_main_debug_Drawing = false;
 force lambs_main_debug_FSM = false;
@@ -855,7 +858,7 @@ force lambs_main_maxRevealValue = 1;
 force lambs_main_minFriendlySuppressionDistance = 5;
 force lambs_main_minObstacleProximity = 5;
 force lambs_main_minSuppressionRange = 50;
-force lambs_main_radioBackpack = 2000;
+force lambs_main_radioBackpack = 3000;
 lambs_main_radioDisabled = false;
 force lambs_main_radioEast = 500;
 force lambs_main_radioGuer = 500;
@@ -864,7 +867,7 @@ force lambs_main_radioWest = 500;
 
 // Tinter Furniture
 tint_delay = 10;
-tint_houseLimit = 42;
+tint_houseLimit = 38;
 tint_houses = true;
 tint_range = 300;
 force tint_seed = 69;
@@ -873,7 +876,7 @@ force tint_seed = 69;
 force tsp_cba_breach = true;
 force tsp_cba_breach_ace = true;
 force tsp_cba_breach_ace_locking = true;
-force tsp_cba_breach_ammo = "[""rhs_mag_M781_Practice"",""B_12Gauge_Slug_NoCartridge"", ""rhs_ammo_12g_slug"", ""rhs_ammo_12g_00buckshot"",""6Rnd_12Gauge_Pellets"",""6Rnd_12Gauge_Slug"",]";
+force tsp_cba_breach_ammo = "[""rhs_mag_M781_Practice"",""B_12Gauge_Slug_NoCartridge"", ""rhs_ammo_12g_slug"", ""rhs_ammo_12g_00buckshot"",""6Rnd_12Gauge_Pellets"",""6Rnd_12Gauge_Slug""]";
 force tsp_cba_breach_ammoMultiplier = 1;
 force tsp_cba_breach_autoTime = 5;
 force tsp_cba_breach_lockBlacklist = "[]";
