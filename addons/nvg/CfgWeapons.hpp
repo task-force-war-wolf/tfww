@@ -207,5 +207,41 @@ class CfgWeapons {
         ACE_nightvision_generation = 4;
         ACE_nightVision_radBlur = 0;
     };
+    // USP
+    class usp_PVS14: NVGoggles {
+		modelOptics = "\A3\weapons_f\reticle\optics_empty.p3d";
+		ACE_nightvision_border = "";
+		ACE_nightvision_bluRadius = 0;
+		ace_nightvision_generation = 4;
+		ace_nightvision_eyecups = 0;
+	};
+	class usp_PVS15: NVGoggles {
+		modelOptics = "\A3\weapons_f\reticle\optics_empty.p3d";
+		ACE_nightvision_border = "";
+		ACE_nightvision_bluRadius = 0;
+		ace_nightvision_generation = 4;
+		ace_nightvision_eyecups = 0;
+	};
+	class usp_PVS31: NVGoggles {
+		modelOptics = "\A3\weapons_f\reticle\optics_empty.p3d";
+		ACE_nightvision_border = "";
+		ACE_nightvision_bluRadius = 0;
+		ace_nightvision_generation = 4;
+		ace_nightvision_eyecups = 0;
+	};
+	class usp_NSEAS: NVGoggles {
+		modelOptics = "\A3\weapons_f\reticle\optics_empty.p3d";
+		ACE_nightvision_border = "";
+		ACE_nightvision_bluRadius = 0;
+		ace_nightvision_generation = 4;
+		ace_nightvision_eyecups = 0;
+	};
+	class usp_GPNVG18: NVGoggles {
+		modelOptics = "\A3\weapons_f\reticle\optics_empty.p3d";
+		ACE_nightvision_border = "";
+		ACE_nightvision_bluRadius = 0;
+		ace_nightvision_generation = 4;
+		ace_nightvision_eyecups = 0;
+	};
 };
 
