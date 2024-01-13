@@ -1,5 +1,6 @@
 #include "script_component.hpp"
-class CBA_Extended_EventHandlers;
+class CBA_Extended_EventHandlers_base;
+class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base{};
 class CfgVehicles {
     class Man;
     class Helipad_base_F;

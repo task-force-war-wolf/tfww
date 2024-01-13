@@ -434,7 +434,6 @@ class CfgWeapons {
             };
         };
     };
-
     class rhsusf_acc_premier: rhsusf_acc_LEUPOLDMK4_2 {
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
@@ -453,7 +452,6 @@ class CfgWeapons {
             };
         };
     };
-
     class rhsusf_acc_nxs_3515x50_base: ItemCore {
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
@@ -673,7 +671,6 @@ class CfgWeapons {
             };
         };
     };
-
     class Tier1_Eotech551_3xMag_Black_Up: ItemCore  {
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {

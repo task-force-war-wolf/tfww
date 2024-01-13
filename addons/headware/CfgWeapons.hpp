@@ -2047,6 +2047,11 @@ class CfgWeapons {
         picture=QPATHTOF(data\ui\icon_H_HelmetB_camo_US_M81_ca.paa);
         MACRO_ITEM_COMMON
     };
+    class opscore_sf_black: ItemCore {
+        scope = 2;
+        ace_hearing_protection = 0.7;
+        ace_hearing_lowerVolume = 0.05;
+    };
     class opscore_sf_arid: opscore_sf_black {
         scope = 2;
         ace_hearing_protection = 0.7;
@@ -2058,11 +2063,6 @@ class CfgWeapons {
         ace_hearing_lowerVolume = 0.05;
     };
     class opscore_sf_arid_full: ItemCore {
-        scope = 2;
-        ace_hearing_protection = 0.7;
-        ace_hearing_lowerVolume = 0.05;
-    };
-    class opscore_sf_black: ItemCore {
         scope = 2;
         ace_hearing_protection = 0.7;
         ace_hearing_lowerVolume = 0.05;

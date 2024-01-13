@@ -27,5 +27,4 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 
 #include "XtdGeartfww.hpp"
-#include "XtdGear.hpp"
 #include "XtdGear_tsf_avs.hpp"

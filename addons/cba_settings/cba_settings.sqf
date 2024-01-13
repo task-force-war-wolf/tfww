@@ -57,9 +57,6 @@ FORCE FORCE tfww_bft_updateInterval = 6
 force force tfwwb_Main_DynamicGroups = true;
 force force tfwwb_Main_FlipVehicle = true;
 
-// Task Force War Wolf - FRIES
-force force tfww_fries_autoAdd = true;
-
 // Task Force War Wolf - Grass
 force force tfww_grass_enabled = true;
 
@@ -840,7 +837,7 @@ force lambs_eventhandlers_ExplosionReactionTime = 9;
 force lambs_wp_autoAddArtillery = true;
 
 // LAMBS Main
-force lambs_main_combatShareRange = 1000;
+force lambs_main_combatShareRange = 600;
 force lambs_main_debug_drawAllUnitsInVehicles = false;
 force lambs_main_debug_Drawing = false;
 force lambs_main_debug_FSM = false;
@@ -858,11 +855,11 @@ force lambs_main_maxRevealValue = 1;
 force lambs_main_minFriendlySuppressionDistance = 5;
 force lambs_main_minObstacleProximity = 5;
 force lambs_main_minSuppressionRange = 50;
-force lambs_main_radioBackpack = 3000;
+force lambs_main_radioBackpack = 4000;
 lambs_main_radioDisabled = false;
-force lambs_main_radioEast = 500;
+force lambs_main_radioEast = 2000;
 force lambs_main_radioGuer = 500;
-force lambs_main_radioShout = 100;
+force lambs_main_radioShout = 200;
 force lambs_main_radioWest = 500;
 
 // Tinter Furniture
